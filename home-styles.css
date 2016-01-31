@@ -1,0 +1,64 @@
+/* Installed Fonts */
+@font-face {
+	font-family: master_of_break;
+	src: url("fonts/master_of_break.ttf");
+}
+
+@font-face {
+	font-family: coffeeshop;
+	src: url("fonts/coffeeshop.ttf");
+}
+@font-face {
+	font-family: KeepCalm-Medium;
+	src: url("fonts/KeepCalm-Medium.ttf");
+}
+
+@font-face {
+	font-family: Soft Elegance;
+	src: url("fonts/Soft Elegance.ttf");
+}
+@font-face {
+	font-family: NEOTERIC;
+	src: url("fonts/NEOTERIC.ttf");
+}
+
+
+/* Navagation Bar Styling */
+
+.nav-bar {
+	height: 100px;
+	background: white;
+}
+
+.nav-bar li {
+	display: inline;
+	text-decoration: none;
+	margin-left: 50px;
+	font-family: NEOTERIC;
+}
+.nav-bar ul {
+	margin-top: 30px;;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+	display: inline;
+	height: 100px;
+}
+
+.button-active li {
+	border-bottom: solid 3px orange;
+}
+.button-active {
+	display: inline;
+	height: 100px;
+	font-weight: bold;
+}
+
+.nav-bar a:hover {
+	color: orange;
+}
