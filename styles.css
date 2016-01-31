@@ -1,0 +1,69 @@
+/* Do NOT Touch this element */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Fonts installed on website */
+
+@font-face {
+	font-family: master_of_break;
+	src: url("fonts/master_of_break.ttf");
+}
+
+@font-face {
+	font-family: coffeeshop;
+	src: url("fonts/coffeeshop.ttf");
+}
+@font-face {
+	font-family: KeepCalm-Medium;
+	src: url("fonts/KeepCalm-Medium.ttf");
+}
+
+@font-face {
+	font-family: Soft Elegance;
+	src: url("fonts/Soft Elegance.ttf");
+}
+
+
+
+/* Background styles */
+
+.header {
+	background-image: url(images/background.png);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* Header styles */
+
+.header h1 {
+	font-family: KeepCalm-Medium;
+	font-size: 50px;
+	color: white;
+}
+.header p {
+	color: white;
+	font-family: Soft Elegance;
+}
+
+
+.header img {
+	margin-top: 20px;
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.header img:hover {
+	opacity: 0.5;
+}
+
+
+
